@@ -1,0 +1,13 @@
+<h1>Dashboard</h1>
+<hr>
+
+<p>Esta página solo funciona si estás autenticado</p>
+
+
+<h4> User info </h4>
+<pre> {{ user | json }} </pre>
+
+<button (click)="logout()"
+        style="background-color: blueviolet; padding: 10px; border-radius: 10px; color: beige;">
+    Logout
+</button>
